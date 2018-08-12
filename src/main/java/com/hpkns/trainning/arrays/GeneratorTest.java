@@ -1,6 +1,6 @@
 package com.hpkns.trainning.arrays;
 
-public class TestDrive {
+public class GeneratorTest {
   private static int size = 10;
 
   public static void test(Class<?> surroundingClass) {
@@ -19,6 +19,9 @@ public class TestDrive {
   }
 
   public static void main(String[] args) {
+    System.out.println("*************Simple Generator*********");
     test(CountingGenerator.class);
+    System.out.println("*************Random Generator*********");
+    test(RandomGenerator.class);
   }
 }
