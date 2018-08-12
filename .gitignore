@@ -1,0 +1,11 @@
+.idea
+
+*.out
+*.err
+*.class
+*output
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
