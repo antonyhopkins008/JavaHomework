@@ -1,9 +1,6 @@
 package com.hpkns.trainning.arrays;
 
-interface Generator<T> {
-  public T next();
-}
-
+import utils.Generator;
 public class CountingGenerator {
   //**Boolean generator**
   public static class Boolean implements Generator<java.lang.Boolean> {

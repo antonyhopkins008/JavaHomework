@@ -1,5 +1,7 @@
 package com.hpkns.trainning.arrays;
 
+import utils.Generator;
+
 import java.util.Random;
 
 public class RandomGenerator {

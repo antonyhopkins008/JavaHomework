@@ -1,5 +1,6 @@
 package com.hpkns.trainning.arrays;
 
+import utils.Generator;
 public class GeneratorTest {
   private static int size = 10;
 
