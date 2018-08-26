@@ -39,9 +39,8 @@ public class SimpleHashMap<K, V> extends AbstractMap<K, V> {
       if (iPair.getKey().equals(key)) {
         return iPair.getValue();
       }
-      return null;
     }
-    return super.get(key);
+    return null;
   }
   @Override
   public Set<Map.Entry<K, V>> entrySet() {
