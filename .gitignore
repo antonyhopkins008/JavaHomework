@@ -4,6 +4,7 @@
 *.err
 *.class
 *output
+temp.tmp
 
 # OSX
 .DS_Store
