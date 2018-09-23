@@ -1,4 +1,4 @@
-package com.hpkns.trainning.chain;
+package enumerations.chain;
 
 import java.util.Random;
 
